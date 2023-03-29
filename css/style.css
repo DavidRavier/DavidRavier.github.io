@@ -1,3 +1,33 @@
+/*
+nouvelles couleurs pour le site: 
+DBE2EF pour la couleur primaire
+3F72AF pour la couleur secondaire
+112D4E pour la couleur de fond
+F6B6B6 (ou plutôt F9F7F7) pour la couleur de la police
+Pour la police, utliser Roboto Slab de chez Google fonts
+*/
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mainImage {
+    max-width: 500px;
+    max-height: 400px;
+    margin-bottom: 3em;
+}
+
+
 body {
-    background-color: #f0f;
+    background-color: #DBE2EF;
+}
+
+h1 {
+    color: #F9F7F7;
+    font-size: xx-large;
+    font-weight: 800;
 }
